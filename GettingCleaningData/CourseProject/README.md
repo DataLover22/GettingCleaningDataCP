@@ -44,43 +44,43 @@ In order to prepare tidy data that can be used for later analysis, one R script 
 
 Below is the detailed steps in the R script.
 
-# Set the current working directory.
+Set the current working directory
 
-# Create data folder to save downloaded file
+Create data folder to save downloaded file
 
-# Download the zip file from the web
+Download the zip file from the web
 
-# Save the zip file in the destinated directory
+Save the zip file in the destinated directory
 
-# Unzip the file
+Unzip the file
 
-# Read train related data
+Read train related data
 
-# Read test related data
+Read test related data
 
-# Combine Subject_train, Y_train and X_train into one file called traindata. Combine Subject_test, Y_test and X_test into one file called testdata.
+Combine Subject_train, Y_train and X_train into one file called traindata. Combine Subject_test, Y_test and X_test into one file called testdata.
 
-# Merge the traindata and testdata into one file called MergeTrainTestData
+Merge the traindata and testdata into one file called MergeTrainTestData
 
-# Extracts only the measurements on the mean and standard deviation of variables.
+Extracts only the measurements on the mean and standard deviation of variables.
 
-# Install packages for manipulating data: dplyr, tidyr, RSQLite
+Install packages for manipulating data: dplyr, tidyr, RSQLite
 
-# Read features.txt into R as a data frame to use as the column names
+Read features.txt into R as a data frame to use as the column names
 
-# Read activity.txt into R as a data frame to use as the descriptive activity names
+Read activity.txt into R as a data frame to use as the descriptive activity names
 
-# Select rows from features with key words 'mean' or 'std' into a data framed called MeanSTDdf (66 rows are selected).
+Select rows from features with key words 'mean' or 'std' into a data framed called MeanSTDdf (66 rows are selected).
 
-# Match the columns in MergeTrainTestData with those rows in MeanSTDdf with key words 'mean' and 'std'
+Match the columns in MergeTrainTestData with those rows in MeanSTDdf with key words 'mean' and 'std'
 
-# Appropriately labels the data set with descriptive names
+Appropriately labels the data set with descriptive names
 
-# Rename activity type with descriptive names
+Rename activity type with descriptive names
 
-# Group by ID and Activity Tpye, calculate the mean of each variable
+Group by ID and Activity Tpye, calculate the mean of each variable
 
-# Output TidyData 
+Output TidyData 
 
 
 
